@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              tools:context="com.example.demolistview.MainActivity" android:weightSum="1">
+
+    <Button
+            android:id="@+id/selectAll"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:text="Tout sélectionner"
+            android:layout_gravity="center_horizontal|right"/>
+    <!--Pour l'affichage des liste_noms-->
+ <!--   <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:weightSum="1">
+        <ListView
+                android:id="@+id/contact"
+                android:layout_width="fill_parent"
+                android:layout_height="54dp"
+                android:layout_gravity="top" android:layout_weight="0.99"/>
+
+    </LinearLayout> -->
+
+    <ListView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="362dp" android:layout_weight="0.44">
+    </ListView>
+    <Button
+            android:id="@+id/valider1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+

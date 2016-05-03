@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:paddingRight="10sp"
+            android:paddingLeft="10sp"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_centerVertical="true" android:minHeight="100dp" android:minWidth="100dp"
+            android:maxHeight="100dp" android:maxWidth="100dp"/>
+
+    <LinearLayout
+            android:id="@+id/block"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:focusable="false"
+            android:paddingBottom="10dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_gravity="center_vertical|right">
+
+        <TextView
+                android:id="@+id/textViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#A1A2A2"
+                android:text="TextView" />
+
+        <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="TextView"/>
+
+        <TextView
+                android:id="@+id/textViewPhoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#A1A2A2"
+                android:text="TextView" />
+        <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#A1A2A2"
+                android:text="TextView" />
+
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/cocheView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10sp"
+            android:paddingLeft="10sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerVertical="true" />
+
+</RelativeLayout>

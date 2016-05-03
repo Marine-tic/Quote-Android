@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quote</string>
+    <string name="valider">Valider</string>
+    <string name="annuler">Annuler</string>
+    <string name="prenom">Vous avez choisi les contacts suivants :</string>
+    <string name="smsType">Voici vos sms type :</string>
+    <string name="envoyerMessage">Envoyer</string>
+    <string name="noContactSelected">Aucun contact n\'est sélectionné</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="modifier">Modifier</string>
+</resources>
